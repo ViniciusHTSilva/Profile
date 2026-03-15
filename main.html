@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinicius Henrique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+
+<div class="clouds">
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+</div>
+
+<div class="page">
+
+  <!-- TOP SOCIAL BAR -->
+  <div class="topbar">
+    <a href="#" class="social-link" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.27V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+    </a>
+    <a href="#" class="social-link" aria-label="GitHub">
+      <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.48 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.11-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .3z"/></svg>
+    </a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <!-- Avatar -->
+    <div class="avatar-wrap">
+        <img src="./img/Profile.png" alt="">
+    </div>
+
+    <!-- Text -->
+    <div class="hero-text">
+      <h1 class="hero-name">Vinicius Henrique</h1>
+      <a href="#" class="pill-btn" id="sobre-btn" data-modal="modalSobre">Sobre</a>
+    </div>
+  </section>
+
+  <!-- TECH ICONS -->
+  <div class="tech-row">
+    <!-- Python -->
+    <div class="tech-icon" title="Python">
+      <a href="#"  id="py-btn" data-modal="modal_Py">
+      <img  src="./img/Python.png" alt="Python">
+      </a>
+    </div>
+
+    <!-- Azure -->
+    <div class="tech-icon" title="Azure">
+      <a href="#"  id="azure-btn" data-modal="modal_Azure">
+      <img src="./img/Azure.png" alt="Azure">
+      </a>
+    </div>
+
+    <!-- SQL  -->
+    <div class="tech-icon" title="SQL Database">
+      <a href="#"  id="sql-btn" data-modal="modal_sql">
+      <img src="./img/database.png" alt="SQL">
+      </a>
+    </div>
+
+    <!-- AWS -->
+    <div class="tech-icon"  title="Amazon Web Services">
+      <a href="#"  id="aws-btn" data-modal="modalAws">
+      <img src="./img/AWS.png" alt="AWS">
+      </a>
+    </div>
+
+    <!-- Google Cloud -->
+    <div class="tech-icon" title="Google Cloud">
+      <a href="#"  id="gcp-btn" data-modal="modalgcp">
+      <img src="./img/GCP.png" alt="GCP">
+      </a>
+    </div>
+
+    <!-- Projetos -->
+    <div class="tech-icon" title="Project Management">
+      <a href="#"  id="projetos-btn" data-modal="modalprojetos">
+      <img src="./img/projeto.png" alt="PROJECTOS">
+      </a>
+    </div>
+
+  
+    <div class="tech-icon" title="Mais projetos">
+      <a href="#"  id="outros-btn" data-modal="modal_outros">
+      <img src="./img/outros.png" alt="Outros">
+      </a>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+<!-- ABOUT MODAL -->
+<div class="modal-overlay" id="modalSobre">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+    <h2>Sobre mim</h2>
+    <p>Olá! Sou <strong>Vinicius Henrique</strong>, desenvolvedor com foco em Python, cloud (Azure, AWS, GCP) e bancos de dados. Gosto de construir soluções escaláveis e automatizadas que resolvem problemas reais.</p>
+  </div>
+</div>
+
+<!-- CERTIFICAÇÕES PYTHON -->
+
+<div class="modal-overlay" id="modal_Py">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>Python</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES AZURE -->
+
+<div class="modal-overlay" id="modal_Azure">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>Microsoft Azure</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES SQL -->
+
+<div class="modal-overlay" id="modal_sql">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>SQL</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES AWS -->
+
+<div class="modal-overlay" id="modalAws">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>AWS</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES GOOGLE CLOUD -->
+
+<div class="modal-overlay" id="modalgcp">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>GOOGLE CLOUD</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES PROJETOS -->
+
+<div class="modal-overlay" id="modalprojetos">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>PROJETOS</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+<!-- CERTIFICAÇÕES OUTROS -->
+
+<div class="modal-overlay" id="modal_outros">
+<div class="modal">
+<button class="modal-close">&times;</button>
+<h2>OUTROS</h2>
+<p>
+Experiência com serviços AWS como S3, EC2, Lambda e automação de infraestrutura.
+</p>
+</div>
+</div>
+
+
+
+<script>
+
+const botoes = ['sobre-btn','aws-btn','py-btn','azure-btn','sql-btn','gcp-btn','projetos-btn','outros-btn'];
+
+botoes.forEach(id => {
+
+const botao = document.getElementById(id);
+
+if(botao){
+
+botao.addEventListener('click', e => {
+
+e.preventDefault();
+
+const modalId = botao.dataset.modal;
+
+const modal = document.getElementById(modalId);
+
+modal.classList.add('open');
+
+});
+
+}
+
+});
+
+
+document.querySelectorAll('.modal-close').forEach(btn => {
+
+btn.addEventListener('click', () => {
+
+btn.closest('.modal-overlay').classList.remove('open');
+
+});
+
+});
+
+
+document.querySelectorAll('.modal-overlay').forEach(overlay => {
+
+overlay.addEventListener('click', e => {
+
+if(e.target === overlay){
+
+overlay.classList.remove('open');
+
+}
+
+});
+
+});
+
+</script>
+</body>
+</html>
