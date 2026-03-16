@@ -372,3 +372,12 @@
 
       justify-content: center;
     }
+
+@media (max-width: 600px){
+  
+.certificacao{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;;
+  gap: 10px;
+}
+}
